@@ -2,20 +2,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="an" fetch="https://github.com/anuragnn" />
-  <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <remote name="Neel" fetch="https://github.com/itzovi" />
+  <remote name="RisingOS" fetch="https://github.com/RisingTechOSS/" />
   <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
 
   <!-- /* device specific */ -->
 
   <!-- device -->
-  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="an" revision="lineage-20" />
+  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="Neel" revision="lineage-20" />
 
   <!-- vendor -->
-  <project path="vendor/xiaomi/selene" name="android_vendor_xiaomi_selene.git" remote="an" revision="thirteen" clone-depth="1" />
+  <project path="vendor/xiaomi/selene" name="android_vendor_xiaomi_selene.git" remote="Neel" revision="thirteen" clone-depth="1" />
 
   <!-- kernel -->
-  <project path="kernel/xiaomi/selene" name="android_kernel_xiaomi_selene.git" remote="an" revision="thirteen-stable" clone-depth="1" />
+  <project path="kernel/xiaomi/selene" name="android_kernel_xiaomi_selene.git" remote="Neel" revision="thirteen-stable" clone-depth="1" />
 
     <!-- hardware -->
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="LOS" revision="lineage-20" clone-depth="1" />
@@ -37,6 +37,6 @@
   <!-- /* hacks */ -->
   <!-- fix for telelgram video playing, presumably -->
   <remove-project name="LineageOS/android_frameworks_av" />
-  <project path="frameworks/av" name="frameworks_av.git" remote="an" revision="aosp-13" />
+  <project path="frameworks/av" name="frameworks_av.git" remote="Neel" revision="aosp-13" />
 
 </manifest>
