@@ -36,7 +36,7 @@
 
   <!-- /* hacks */ -->
   <!-- fix for telelgram video playing, presumably -->
-  <remove-project name="RisingTechOSS/android_frameworks_av" />
+  <remove-project name="RisingTechOSS/android_frameworks_av.git" />
   <project path="frameworks/av" name="frameworks_av.git" remote="Neel" revision="aosp-13" />
 
 </manifest>
